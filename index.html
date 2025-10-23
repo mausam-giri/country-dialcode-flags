@@ -1,60 +1,71 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1"
+    />
     <title>Country code flag demo</title>
-    <link rel="stylesheet" href="phone-code-with-flag.css" />
+    <link
+      rel="stylesheet"
+      href="phone-code-with-flag.css"
+    />
     <style>
-      body { font-family: system-ui, Arial; padding: 24px; }
-      .flag-display { display:flex; align-items:center; gap:12px; margin-top:12px }
-      .flag { width: 40px; height: 30px; background-image: url('./high-res.png'); background-repeat: no-repeat; background-size: auto; border:1px solid #ccc }
-      select { font-size: 16px; padding:6px }
+      body {
+        font-family: system-ui, Arial;
+        padding: 24px;
+      }
+      .flag-display {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-top: 12px;
+      }
+      .tel-input {
+        width: 25px;
+        height: 24px;
+        background-image: url("./high-res.png");
+        background-repeat: no-repeat;
+        background-size: auto;
+        border: 1px solid #ccc;
+      }
+      select {
+        font-size: 16px;
+        padding: 6px;
+      }
     </style>
   </head>
   <body>
     <h1>Country flag dropdown</h1>
-    <p>Select country code (two-letter country class) to show the flag from the sprite.</p>
+    <p>Select country code to show the flag from the sprite.</p>
 
     <label>
       Country code:
-      <select id="country-select"><option>Loading...</option></select>
+      <select id="country-select">
+        <option>Loading...</option>
+      </select>
     </label>
 
     <div class="flag-display">
-      <div id="flag" class="flag"></div>
-      <div id="picked">No country selected</div>
+      <div
+        id="tel-input"
+        class="tel-input"
+      ></div>
+      <div id="tel-input-value">No country selected</div>
     </div>
 
+    <script src="country-codes-data.js"></script>
     <script>
-      async function loadCodes() {
-        try {
-          const res = await fetch('country-codes.json');
-          if (!res.ok) throw new Error('no json');
-          return await res.json();
-        } catch (e) {
-          try {
-            const cssText = await fetch('phone-code-with-flag.css').then(r=>r.text());
-            const re = /\.([a-z]{2})\s*\{[^}]*background-position\s*:/gi;
-            const codes = [];
-            let m;
-            while ((m = re.exec(cssText)) !== null) codes.push(m[1]);
-            return { codes, sprite: null };
-          } catch (err) {
-            return { codes: [], sprite: null };
-          }
-        }
-      }
-
       function populate(codes) {
-        const sel = document.getElementById('country-select');
-        sel.innerHTML = '';
-        const empty = document.createElement('option');
-        empty.value = '';
-        empty.textContent = '-- choose --';
+        const sel = document.getElementById("country-select");
+        sel.innerHTML = "";
+        const empty = document.createElement("option");
+        empty.value = "";
+        empty.textContent = "-- choose --";
         sel.appendChild(empty);
-        codes.forEach(code => {
-          const opt = document.createElement('option');
+        codes.forEach((code) => {
+          const opt = document.createElement("option");
           opt.value = code;
           opt.textContent = code.toUpperCase();
           sel.appendChild(opt);
@@ -62,23 +73,24 @@
       }
 
       function setFlag(code) {
-        const flag = document.getElementById('flag');
-        const picked = document.getElementById('picked');
+        const telInput = document.getElementById("tel-input");
+        const telInputValue = document.getElementById("tel-input-value");
         if (!code) {
-          flag.className = 'flag';
-          picked.textContent = 'No country selected';
+          telInput.className = "tel-input";
+          telInputValue.textContent = "No country selected";
           return;
         }
-        flag.className = 'flag ' + code;
-        picked.textContent = code.toUpperCase();
+        telInput.className = "tel-input " + code;
+        telInputValue.textContent = code.toUpperCase();
       }
 
-      (async ()=>{
-        const { codes } = await loadCodes();
-        populate(codes);
-        document.getElementById('country-select').addEventListener('change', (e)=>{
-          setFlag(e.target.value);
-        });
+      (() => {
+        populate(countryCodesData.codes);
+        document
+          .getElementById("country-select")
+          .addEventListener("change", (e) => {
+            setFlag(e.target.value);
+          });
       })();
     </script>
   </body>
