@@ -1,0 +1,747 @@
+.tel-input {
+  font-size: 15px;
+  position: relative;
+  width: 100%;
+}
+.tel-input :disabled {
+  cursor: not-allowed;
+}
+.tel-input .flag {
+  width: 25px;
+  height: 20px;
+  background-image: url("./high-res.png");
+  background-repeat: no-repeat;
+}
+.tel-input .ad {
+  background-position: -48px -24px;
+}
+.tel-input .ae {
+  background-position: -72px -24px;
+}
+.tel-input .af {
+  background-position: -96px -24px;
+}
+.tel-input .ag {
+  background-position: -120px -24px;
+}
+.tel-input .ai {
+  background-position: -144px -24px;
+}
+.tel-input .al {
+  background-position: -168px -24px;
+}
+.tel-input .am {
+  background-position: -192px -24px;
+}
+.tel-input .an {
+  background-position: -216px -24px;
+}
+.tel-input .ao {
+  background-position: -240px -24px;
+}
+.tel-input .aq {
+  background-position: -264px -24px;
+}
+.tel-input .ar {
+  background-position: -288px -24px;
+}
+.tel-input .as {
+  background-position: -312px -24px;
+}
+.tel-input .at {
+  background-position: -336px -24px;
+}
+.tel-input .au {
+  background-position: -360px -24px;
+}
+.tel-input .aw {
+  background-position: -384px -24px;
+}
+.tel-input .ax {
+  background-position: 0px -48px;
+}
+.tel-input .az {
+  background-position: -24px -48px;
+}
+.tel-input .ba {
+  background-position: -48px -48px;
+}
+.tel-input .bb {
+  background-position: -72px -48px;
+}
+.tel-input .bd {
+  background-position: -96px -48px;
+}
+.tel-input .be {
+  background-position: -120px -48px;
+}
+.tel-input .bf {
+  background-position: -144px -48px;
+}
+.tel-input .bg {
+  background-position: -168px -48px;
+}
+.tel-input .bh {
+  background-position: -192px -48px;
+}
+.tel-input .bi {
+  background-position: -216px -48px;
+}
+.tel-input .bj {
+  background-position: -240px -48px;
+}
+.tel-input .bl {
+  background-position: -264px -48px;
+}
+.tel-input .bm {
+  background-position: -288px -48px;
+}
+.tel-input .bn {
+  background-position: -312px -48px;
+}
+.tel-input .bo {
+  background-position: -336px -48px;
+}
+.tel-input .br {
+  background-position: -360px -48px;
+}
+.tel-input .bs {
+  background-position: -384px -48px;
+}
+.tel-input .bt {
+  background-position: 0px -72px;
+}
+.tel-input .bw {
+  background-position: -24px -72px;
+}
+.tel-input .by {
+  background-position: -48px -72px;
+}
+.tel-input .bz {
+  background-position: -72px -72px;
+}
+.tel-input .ca {
+  background-position: -96px -72px;
+}
+.tel-input .cc {
+  background-position: -120px -72px;
+}
+.tel-input .cd {
+  background-position: -144px -72px;
+}
+.tel-input .cf {
+  background-position: -168px -72px;
+}
+.tel-input .cg {
+  background-position: -192px -72px;
+}
+.tel-input .ch {
+  background-position: -216px -72px;
+}
+.tel-input .ci {
+  background-position: -240px -72px;
+}
+.tel-input .ck {
+  background-position: -264px -72px;
+}
+.tel-input .cl {
+  background-position: -288px -72px;
+}
+.tel-input .cm {
+  background-position: -312px -72px;
+}
+.tel-input .cn {
+  background-position: -336px -72px;
+}
+.tel-input .co {
+  background-position: -360px -72px;
+}
+.tel-input .cr {
+  background-position: -384px -72px;
+}
+.tel-input .cu {
+  background-position: 0px -96px;
+}
+.tel-input .cv {
+  background-position: -24px -96px;
+}
+.tel-input .cw {
+  background-position: -48px -96px;
+}
+.tel-input .cx {
+  background-position: -72px -96px;
+}
+.tel-input .cy {
+  background-position: -96px -96px;
+}
+.tel-input .cz {
+  background-position: -120px -96px;
+}
+.tel-input .de {
+  background-position: -144px -96px;
+}
+.tel-input .dj {
+  background-position: -168px -96px;
+}
+.tel-input .dk {
+  background-position: -192px -96px;
+}
+.tel-input .dm {
+  background-position: -216px -96px;
+}
+.tel-input .do {
+  background-position: -240px -96px;
+}
+.tel-input .dz {
+  background-position: -264px -96px;
+}
+.tel-input .ec {
+  background-position: -288px -96px;
+}
+.tel-input .ee {
+  background-position: -312px -96px;
+}
+.tel-input .eg {
+  background-position: -336px -96px;
+}
+.tel-input .eh {
+  background-position: -360px -96px;
+}
+.tel-input .er {
+  background-position: -384px -96px;
+}
+.tel-input .es {
+  background-position: 0px -120px;
+}
+.tel-input .et {
+  background-position: -24px -120px;
+}
+.tel-input .eu {
+  background-position: -48px -120px;
+}
+.tel-input .fi {
+  background-position: -72px -120px;
+}
+.tel-input .fj {
+  background-position: -96px -120px;
+}
+.tel-input .fk {
+  background-position: -120px -120px;
+}
+.tel-input .fm {
+  background-position: -144px -120px;
+}
+.tel-input .fo {
+  background-position: -168px -120px;
+}
+.tel-input .fr {
+  background-position: -192px -120px;
+}
+.tel-input .ga {
+  background-position: -216px -120px;
+}
+.tel-input .gb {
+  background-position: -240px -120px;
+}
+.tel-input .gd {
+  background-position: -264px -120px;
+}
+.tel-input .ge {
+  background-position: -288px -120px;
+}
+.tel-input .gg {
+  background-position: -312px -120px;
+}
+.tel-input .gh {
+  background-position: -336px -120px;
+}
+.tel-input .gi {
+  background-position: -360px -120px;
+}
+.tel-input .gl {
+  background-position: -384px -120px;
+}
+.tel-input .gm {
+  background-position: 0px -144px;
+}
+.tel-input .gn {
+  background-position: -24px -144px;
+}
+.tel-input .gq {
+  background-position: -48px -144px;
+}
+.tel-input .gr {
+  background-position: -72px -144px;
+}
+.tel-input .gs {
+  background-position: -96px -144px;
+}
+.tel-input .gt {
+  background-position: -120px -144px;
+}
+.tel-input .gu {
+  background-position: -144px -144px;
+}
+.tel-input .gw {
+  background-position: -168px -144px;
+}
+.tel-input .gy {
+  background-position: -192px -144px;
+}
+.tel-input .hk {
+  background-position: -216px -144px;
+}
+.tel-input .hn {
+  background-position: -240px -144px;
+}
+.tel-input .hr {
+  background-position: -264px -144px;
+}
+.tel-input .ht {
+  background-position: -288px -144px;
+}
+.tel-input .hu {
+  background-position: -312px -144px;
+}
+.tel-input .ic {
+  background-position: -336px -144px;
+}
+.tel-input .id {
+  background-position: -360px -144px;
+}
+.tel-input .ie {
+  background-position: -384px -144px;
+}
+.tel-input .il {
+  background-position: 0px -168px;
+}
+.tel-input .im {
+  background-position: -24px -168px;
+}
+.tel-input .in {
+  background-position: -48px -168px;
+}
+.tel-input .iq {
+  background-position: -72px -168px;
+}
+.tel-input .ir {
+  background-position: -96px -168px;
+}
+.tel-input .is {
+  background-position: -120px -168px;
+}
+.tel-input .it {
+  background-position: -144px -168px;
+}
+.tel-input .je {
+  background-position: -168px -168px;
+}
+.tel-input .jm {
+  background-position: -192px -168px;
+}
+.tel-input .jo {
+  background-position: -216px -168px;
+}
+.tel-input .jp {
+  background-position: -240px -168px;
+}
+.tel-input .ke {
+  background-position: -264px -168px;
+}
+.tel-input .kg {
+  background-position: -288px -168px;
+}
+.tel-input .kh {
+  background-position: -312px -168px;
+}
+.tel-input .ki {
+  background-position: -336px -168px;
+}
+.tel-input .xk {
+  background-position: -144px 0px;
+}
+.tel-input .km {
+  background-position: -360px -168px;
+}
+.tel-input .kn {
+  background-position: -384px -168px;
+}
+.tel-input .kp {
+  background-position: 0px -192px;
+}
+.tel-input .kr {
+  background-position: -24px -192px;
+}
+.tel-input .kw {
+  background-position: -48px -192px;
+}
+.tel-input .ky {
+  background-position: -72px -192px;
+}
+.tel-input .kz {
+  background-position: -96px -192px;
+}
+.tel-input .la {
+  background-position: -120px -192px;
+}
+.tel-input .lb {
+  background-position: -144px -192px;
+}
+.tel-input .lc {
+  background-position: -168px -192px;
+}
+.tel-input .li {
+  background-position: -192px -192px;
+}
+.tel-input .lk {
+  background-position: -216px -192px;
+}
+.tel-input .lr {
+  background-position: -240px -192px;
+}
+.tel-input .ls {
+  background-position: -264px -192px;
+}
+.tel-input .lt {
+  background-position: -288px -192px;
+}
+.tel-input .lu {
+  background-position: -312px -192px;
+}
+.tel-input .lv {
+  background-position: -336px -192px;
+}
+.tel-input .ly {
+  background-position: -360px -192px;
+}
+.tel-input .ma {
+  background-position: -384px -192px;
+}
+.tel-input .mc {
+  background-position: 0px -216px;
+}
+.tel-input .md {
+  background-position: -24px -216px;
+}
+.tel-input .me {
+  background-position: -48px -216px;
+}
+.tel-input .mf {
+  background-position: -72px -216px;
+}
+.tel-input .mg {
+  background-position: -96px -216px;
+}
+.tel-input .mh {
+  background-position: -120px -216px;
+}
+.tel-input .mk {
+  background-position: -144px -216px;
+}
+.tel-input .ml {
+  background-position: -168px -216px;
+}
+.tel-input .mm {
+  background-position: -192px -216px;
+}
+.tel-input .mn {
+  background-position: -216px -216px;
+}
+.tel-input .mo {
+  background-position: -240px -216px;
+}
+.tel-input .mp {
+  background-position: -264px -216px;
+}
+.tel-input .mq {
+  background-position: -288px -216px;
+}
+.tel-input .mr {
+  background-position: -312px -216px;
+}
+.tel-input .ms {
+  background-position: -336px -216px;
+}
+.tel-input .mt {
+  background-position: -360px -216px;
+}
+.tel-input .mu {
+  background-position: -384px -216px;
+}
+.tel-input .mv {
+  background-position: 0px -240px;
+}
+.tel-input .mw {
+  background-position: -24px -240px;
+}
+.tel-input .mx {
+  background-position: -48px -240px;
+}
+.tel-input .my {
+  background-position: -72px -240px;
+}
+.tel-input .mz {
+  background-position: -96px -240px;
+}
+.tel-input .na {
+  background-position: -120px -240px;
+}
+.tel-input .nc {
+  background-position: -144px -240px;
+}
+.tel-input .ne {
+  background-position: -168px -240px;
+}
+.tel-input .nf {
+  background-position: -192px -240px;
+}
+.tel-input .ng {
+  background-position: -216px -240px;
+}
+.tel-input .ni {
+  background-position: -240px -240px;
+}
+.tel-input .nl {
+  background-position: -264px -240px;
+}
+.tel-input .no {
+  background-position: -288px -240px;
+}
+.tel-input .np {
+  background-position: -312px -240px;
+}
+.tel-input .nr {
+  background-position: -336px -240px;
+}
+.tel-input .nu {
+  background-position: -360px -240px;
+}
+.tel-input .nz {
+  background-position: -384px -240px;
+}
+.tel-input .om {
+  background-position: 0px -264px;
+}
+.tel-input .pa {
+  background-position: -24px -264px;
+}
+.tel-input .pe {
+  background-position: -48px -264px;
+}
+.tel-input .pf {
+  background-position: -72px -264px;
+}
+.tel-input .pg {
+  background-position: -96px -264px;
+}
+.tel-input .ph {
+  background-position: -120px -264px;
+}
+.tel-input .pk {
+  background-position: -192px -264px;
+}
+.tel-input .pl {
+  background-position: -216px -264px;
+}
+.tel-input .pn {
+  background-position: -240px -264px;
+}
+.tel-input .pr {
+  background-position: -264px -264px;
+}
+.tel-input .ps {
+  background-position: -288px -264px;
+}
+.tel-input .pt {
+  background-position: -312px -264px;
+}
+.tel-input .pw {
+  background-position: -336px -264px;
+}
+.tel-input .py {
+  background-position: -360px -264px;
+}
+.tel-input .qa {
+  background-position: -384px -264px;
+}
+.tel-input .ro {
+  background-position: 0px -288px;
+}
+.tel-input .rs {
+  background-position: -24px -288px;
+}
+.tel-input .ru {
+  background-position: -48px -288px;
+}
+.tel-input .rw {
+  background-position: -72px -288px;
+}
+.tel-input .sa {
+  background-position: -96px -288px;
+}
+.tel-input .sb {
+  background-position: -120px -288px;
+}
+.tel-input .sc {
+  background-position: -144px -288px;
+}
+.tel-input .sd {
+  background-position: -168px -288px;
+}
+.tel-input .se {
+  background-position: -192px -288px;
+}
+.tel-input .sg {
+  background-position: -216px -288px;
+}
+.tel-input .sh {
+  background-position: -240px -288px;
+}
+.tel-input .si {
+  background-position: -264px -288px;
+}
+.tel-input .sk {
+  background-position: -288px -288px;
+}
+.tel-input .sl {
+  background-position: -312px -288px;
+}
+.tel-input .sm {
+  background-position: -336px -288px;
+}
+.tel-input .sn {
+  background-position: -360px -288px;
+}
+.tel-input .so {
+  background-position: -384px -288px;
+}
+.tel-input .sr {
+  background-position: 0px -312px;
+}
+.tel-input .ss {
+  background-position: -24px -312px;
+}
+.tel-input .st {
+  background-position: -48px -312px;
+}
+.tel-input .sv {
+  background-position: -72px -312px;
+}
+.tel-input .sy {
+  background-position: -96px -312px;
+}
+.tel-input .sz {
+  background-position: -120px -312px;
+}
+.tel-input .tc {
+  background-position: -144px -312px;
+}
+.tel-input .td {
+  background-position: -168px -312px;
+}
+.tel-input .tf {
+  background-position: -192px -312px;
+}
+.tel-input .tg {
+  background-position: -216px -312px;
+}
+.tel-input .th {
+  background-position: -240px -312px;
+}
+.tel-input .tj {
+  background-position: -264px -312px;
+}
+.tel-input .tk {
+  background-position: -288px -312px;
+}
+.tel-input .tl {
+  background-position: -312px -312px;
+}
+.tel-input .tm {
+  background-position: -336px -312px;
+}
+.tel-input .tn {
+  background-position: -360px -312px;
+}
+.tel-input .to {
+  background-position: -384px -312px;
+}
+.tel-input .tr {
+  background-position: 0px -336px;
+}
+.tel-input .tt {
+  background-position: -24px -336px;
+}
+.tel-input .tv {
+  background-position: -48px -336px;
+}
+.tel-input .tw {
+  background-position: -72px -336px;
+}
+.tel-input .tz {
+  background-position: -96px -336px;
+}
+.tel-input .ua {
+  background-position: -120px -336px;
+}
+.tel-input .ug {
+  background-position: -144px -336px;
+}
+.tel-input .us {
+  background-position: -168px -336px;
+}
+.tel-input .uy {
+  background-position: -192px -336px;
+}
+.tel-input .uz {
+  background-position: -216px -336px;
+}
+.tel-input .va {
+  background-position: -240px -336px;
+}
+.tel-input .vc {
+  background-position: -264px -336px;
+}
+.tel-input .ve {
+  background-position: -288px -336px;
+}
+.tel-input .vg {
+  background-position: -312px -336px;
+}
+.tel-input .vi {
+  background-position: -336px -336px;
+}
+.tel-input .vn {
+  background-position: -360px -336px;
+}
+.tel-input .vu {
+  background-position: -384px -336px;
+}
+.tel-input .wf {
+  background-position: 0px -360px;
+}
+.tel-input .ws {
+  background-position: -24px -360px;
+}
+.tel-input .ye {
+  background-position: -48px -360px;
+}
+.tel-input .za {
+  background-position: -96px -360px;
+}
+.tel-input .zm {
+  background-position: -120px -360px;
+}
+.tel-input .zw {
+  background-position: -144px -360px;
+}
+.tel-input * {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.tel-input .hide {
+  display: none;
+}
+.tel-input .v-hide {
+  visibility: hidden;
+}
